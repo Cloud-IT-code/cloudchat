@@ -1,0 +1,45 @@
+{
+  "name": "cloudchat",
+  "version": "0.0.1",
+  "description": "Sebuah widget obrolan langsung yang ditautkan ke utusan telegram Anda",
+  "engines": {
+    "node": "6.9.1",
+    "npm": "3.10.8"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "npm run build",
+    "dev": "start  http://localhost:3000/demo.html & node devServer.js",
+    "build": "shx mkdir -p dist && shx cp *.html dist && shx cp -r ./media dist && shx cp -r ./css dist && webpack -p",
+    "test": "npm run -s lint",
+    "lint": "eslint src"
+  },
+  "authors": [
+    "Kwaiichan (http://github.com/Cloud-IT-code)"
+  ],
+  "devDependencies": {
+    "webpack-bundle-analyzer": "^3.9.0",
+    "webpack-dev-server": "^3.1.11"
+  },
+  "dependencies": {
+    "babel-core": "^6.0.20",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.0.1",
+    "babel-plugin-transform-react-jsx": "^6.4.0",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "cors": "^2.8.1",
+    "dateformat": "^2.0.0",
+    "eslint": "^6.5.1",
+    "express": "4.10.2",
+    "preact": "^7.1.0",
+    "request": "^2.79.0",
+    "shx": "^0.2.2",
+    "socket.io": "^1.7.3",
+    "socket.io-client": "^1.7.3",
+    "store": "^1.3.20",
+    "webpack": "^1.14.0"
+  }
+}
