@@ -7,7 +7,7 @@ Sebuah widget obrolan langsung **Gratis** yang dapat Anda tambahkan dengan mudah
 - [aslauris](https://github.com/aslauris) - Siapa yang membuat UI pertama! Lihat situs webnya - [wedofe.com](https://www.wedofe.com/)
 
 #### :tada: Pembaruan dan Penerjemah :tada:
-- [aslauris](https://github.com/Cloud-IT-code) - Siapa yang mengubah UI baru dan penerjemah! Lihat situs webnya - [cloudcenter-cc](https://cloudcenter-cc.blogspot.com/)
+- [Kwaiichan](https://github.com/Cloud-IT-code) - Siapa yang mengubah UI baru dan penerjemah! Lihat situs webnya - [cloudcenter-cc](https://cloudcenter-cc.blogspot.com/)
 
 ![](https://user-images.githubusercontent.com/5776439/40442974-c107cb4a-5e79-11e8-8af1-4d2c8be14f48.gif)
 
